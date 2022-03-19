@@ -1,13 +1,12 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 
 function Landing() {
   return (
     <div className=" w-screen flex justify-center items-center minimum">
-      <div className=" sm:pt-0 sm:px-1 container flex w-4/5 pt-5 px-7 justify-evenly flex-col lg:flex-row">
-        <span className=" relative w-3/5 pt-16 sm:w-full">
-          <h2 className=" text-5xl text-blue-500 mb-4">
+      <div className=" sm:pt-0 sm:px-0 container flex w-4/5 md:pt-5 md:px-7 justify-evenly md:gap-64 flex-col lg:flex-row">
+        <span className=" relative md:w-3/5 pt-16 w-screen">
+          <h2 className="text-3xl md:text-5xl text-blue-500 mb-4">
             Decentralized fund me
           </h2>
           <p className=" mb-6">
@@ -23,7 +22,7 @@ function Landing() {
             Committed to helping the community
           </p>
         </span>
-        <span className=" relative w-2/5 add card mt-0 sm:mt-6 sm:w-full sm:flex sm:items-start">
+        <span className=" relative md:w-2/5 add card md:mt-0 mt-6 w-screen sm:flex sm:items-start">
           <div className=" floater" />
         </span>
       </div>
