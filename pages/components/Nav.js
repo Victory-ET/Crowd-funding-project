@@ -3,7 +3,7 @@ import React from 'react'
 function Nav() {
   return (
     <div className=" w-screen relative flex items-center justify-center px-2 top-2">
-        <nav className=" container flex items-start py-4 relative">
+        <nav className=" container flex items-start py-4 relative gap-4">
           <div className=" relative">
             <h1 className=" text-blue-600 font-bold text-3xl">
               DecFundMe

@@ -28,9 +28,39 @@
   z-index: 88;
 }
 
+.card{
+  animation: card-move 5s ease-in-out infinite;
+  animation-delay: 2s;
+}
+
+@keyframes card-move{
+  0%, 100% {
+    transform: translateY(-7%);
+    animation-timing-function: cubic-bezier(0.8,0,1,1);
+}
+50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0,0,0.2,1);
+}
+}
+
+.floater{
+  background-image: url(../public/1x/asset.png);
+  height: 450px;
+  width: 550px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 @media screen and (max-width:1156px) {
   .add::before{
     display: none;
+  }
+}
+@media screen and (max-width:950px) {
+  .floater{
+    height: 300px;
+    width: 300px;
   }
 }
 

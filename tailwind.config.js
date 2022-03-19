@@ -6,8 +6,9 @@ module.exports = {
   theme: {
     extend: {
       animation:{
-        'bounce-slow': 'bounce 3s linear infinite'
-      }
+        'bounce-slow': 'bounce 3s linear infinite',
+        'card-bounce': 'bounce 3s linear infinite'
+      },
     },
   },
   plugins: [],
