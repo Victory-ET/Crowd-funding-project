@@ -6,10 +6,10 @@ function Form() {
   return (
     <div className="container">
       <Nav />
-      <div className=" container flex w-full h-full justify-center items-center">
-        <div className=" shadow-2xl px-8 py-10 flex flex-col gap-8 sm:w-4/5 md:w-2/5">
-          <h2 className=" text-blue-600 text-4xl">Fund Request Form</h2>
-          <p className=" text-lg">Only one more step to get started, fill the form below</p>
+      <div className=" container flex w-screen h-full justify-center items-center mt-6">
+        <div className=" shadow-2xl px-8 py-10 flex flex-col gap-12 sm:w-3/4 md:w-2/5 mb-6">
+          <h2 className=" text-blue-600 text-3xl md:text-4xl">Fund Request Form</h2>
+          <p className=" text-base md:text-lg">Only one more step to get started, fill the form below</p>
 
           <input
             type="text"
